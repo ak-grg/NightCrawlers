@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+<!--Amitabh Mishra-->
+<!--2020-11-20-->
+<!--18BCI0225-->
+
+<!--Note this is a sample database similar to the one used in Website for reference-->
+  <users>
+    <user>
+      <id>2</id>
+      <first_name>Amitabh</first_name>
+      <last_name>Mishra</last_name>
+      <user_name>amitabh_mishra</user_name>
+      <email>Amitabhmishra@gmail.com</email>
+      <password>qwertyasdfg</password>
+      <signup_date>2020-11-20</signup_date>
+      <profile_pic>assets/images/profile_pics/default/7.png</profile_pic>
+      <num_posts>1</num_posts>
+      <num_likes>2</num_likes>
+      <user_closed>no</user_closed>
+      <friend_array>,akshit_garg,</friend_array>
+    </user>
+  </users>
+
+  <posts>
+    <post>
+      <id>1</id>
+      <body>GG I'm using Nightcrawlers</body>
+      <user_to>none</user_to>
+      <added_by>akshit_garg</added_by>
+      <date_added>2020-11-20</date_added>
+      <user_closed>no</user_closed>
+      <deleted>no</deleted>
+      <likes>5</likes>
+    </post>
+  </posts>
+
+  <comments>
+    <comment>
+      <id>1</id>
+      <post_body>Yo boy!</post_body>
+      <posted_by>amitabh_mishra</posted_by>
+      <posted_to>akshit_garg</posted_to>
+      <date_added>2020-11-20</date_added>
+      <removed>no</removed>
+      <post_id>1</post_id>
+    </comment>
+  </comments>
+
+  <likes>
+    <like>
+      <id>1</id>
+      <username>amitabh_mishra</username>
+      <post_id>1</post_id>
+    </like>
+  </likes>
+
+  <friend_requests>
+    <request>
+      <id>1</id>
+      <user_to>akshit_garg</user_to>
+      <user_from>ak_grg</user_from>
+    </request>
+  </friend_requests>
+
+  <notifications>
+    <notification>
+        <id>1</id>
+        <user_to>none</user_to>
+        <user_from>ak_grg</user_from>
+        <body>Ak Garg commented on your profile post</body>
+        <link>post.php?id=3</link>
+        <datetime>2021-12-08 23:52:22</datetime>
+        <opened>no</opened>
+        <viewed>yes</viewed>
+    </notification>
+  </notifications>
+
+  <messages>
+    <message>
+        <id>1</id>
+        <user_to>none</user_to>
+        <user_from>ak_grg</user_from>
+        <body>Hi</body>
+        <date>2020-11-20</date>
+        <opened>no</opened>
+        <viewed>yes</viewed>
+        <deleted>no</deleted>
+    </message>
+  </messages>
+
+</database>
